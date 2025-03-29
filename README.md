@@ -76,11 +76,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 This React component is designed to manage user data using CRUD (Create, Read, Update, Delete) operations. It fetches user data from an API, displays it in a card layout, allows for editing user details through a popup form, and supports deletion of users.
 
 ## Features
-✅ Fetches user data from an API and displays it in a list format.
-✅ Provides an edit functionality with a pre-filled popup form.
-✅ Supports updating user details and reflects the changes instantly.
-✅ Allows users to be deleted from the list.
-✅ Implements a responsive UI using Bootstrap.
+ ->Fetches user data from an API and displays it in a list format.
+ ->Provides an edit functionality with a pre-filled popup form.
+ ->Supports updating user details and reflects the changes instantly.
+ ->Allows users to be deleted from the list.
+ ->Implements a responsive UI using Bootstrap.
 
 ## Technologies Used
 - React.js
@@ -94,7 +94,7 @@ This React component is designed to manage user data using CRUD (Create, Read, U
 
 1. **Clone the Repository**
    ```sh
-   git clone https://github.com/your-repository.git
+   git clone https://github.com/PrathamAyush/Employwise_Frontend
    cd your-repository
    ```
 
@@ -134,6 +134,7 @@ This component is responsible for:
 | `loading`     | Manages loading state during data fetch. |
 | `updateForm`  | Controls the visibility of the edit popup form. |
 | `selectedUser`| Stores the user data that is being edited. |
+| `currentPage` | Manage pagination. |
 
 ---
 
@@ -226,8 +227,6 @@ The form is displayed in a centered popup when editing a user.
 
 ## Future Improvements
 -  Add form validation before updating user details.
--  Implement a backend API instead of using ReqRes.
 -  Add toast notifications for success/error messages.
 
-🚀 **Now your React User Management System is ready!**
 
